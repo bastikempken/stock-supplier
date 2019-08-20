@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository
 
 
 @Repository
-class KParser {
+open class KParser {
 
     fun parse(document: Document):OutputTO  {
         val quotebox = document.getElementsByClass("quotebox")?.first()

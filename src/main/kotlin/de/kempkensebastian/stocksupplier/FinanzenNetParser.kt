@@ -4,7 +4,6 @@ import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import org.springframework.stereotype.Repository
 
-@Repository
 open class FinanzenNetParser {
 
     fun parse(document: Document): FinanzenNetTO {

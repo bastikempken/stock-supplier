@@ -13,7 +13,6 @@ import org.springframework.data.mongodb.core.SimpleMongoDbFactory
 
 
 @Profile("test")
-@Configuration
 open class MongoTestConfiguration {
     @Bean
     open fun mongoTemplate(mongoClient: MongoClient): MongoTemplate =
